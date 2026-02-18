@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:ital,wght@0,300..800;1,300..800&display=swap");
+
+main {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: #f0f6ff;
+  color: #111118;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 25vh 0;
+}
+
+.content-wrapper h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 5rem;
+  max-width: 60rem;
+  text-transform: uppercase;
+}
+
+.content-wrapper p {
+  max-width: 40rem;
+  line-height: 2rem;
+}
+
+.badge-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.badge-wrapper .badge:nth-child(1) {
+  background-color: #2727e6;
+  color: white;
+}
+.badge-wrapper .badge:nth-child(2) {
+  background-color: #111118;
+  color: white;
+}
+
+.wrapper {
+  background-color: #fecfd5;
+  padding: 5rem;
+  max-width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card {
+  width: 28rem;
+  height: 45rem;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-color: #e0edfe;
+  transform: rotate(-3deg);
+}
+.card2 {
+  background-color: #15aa58;
+  transform: rotate(3deg);
+}
+.card2 h1,
+.card2 p {
+  color: white;
+}
+.card3 {
+  background-color: #ff7714;
+  transform: rotate(-3deg);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4rem;
+  max-width: 25rem;
+  color: #111118;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 4rem 0;
+}
+
+.badge {
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  width: fit-content;
+}
+
+svg {
+  width: 2rem;
+}

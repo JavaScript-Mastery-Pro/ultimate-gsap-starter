@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -20px;
+  transform: rotate(0deg);
+  padding-left: 8rem;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform-origin: center center;
+  outline: 15px solid #fff;
+  margin-left: -8rem;
+}
+
+/* Static rotations */
+.card-1 {
+  transform: rotate(-10deg);
+}
+.card-2 {
+  transform: rotate(-5deg);
+}
+.card-3 {
+  transform: rotate(0deg);
+}
+.card-4 {
+  transform: rotate(5deg);
+}
+.card-5 {
+  transform: rotate(10deg);
+}
