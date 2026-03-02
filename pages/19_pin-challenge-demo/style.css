@@ -48,7 +48,7 @@ li {
   transform: translateY(210%);
 }
 
-.content {
+.card_content {
   padding: 0 5rem;
 }
 
@@ -57,6 +57,7 @@ h3 {
   width: fit-content;
   padding: 0.3rem 0.5rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -133,6 +134,7 @@ span {
   max-width: 50rem;
   text-align: center;
   color: black;
+  margin: 2rem 0;
 }
 
 .text-content p {
