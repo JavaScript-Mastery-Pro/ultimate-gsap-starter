@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap");
+
+main {
+  font-family: "Epilogue", sans-serif;
+  color: white;
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.headline {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-align: center;
+  max-width: 50vw;
+}
+
+/* Each character */
+.char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(30px);
+}
